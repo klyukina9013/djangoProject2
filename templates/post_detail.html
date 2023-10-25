@@ -25,7 +25,7 @@
                             <a class="nav-link active" aria-current="page" href="/">Главная</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/about">Страница в доработке</a>
+                            <a class="nav-link" aria-current="page" href="/about">Галерея</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -42,7 +42,7 @@
             </div>
         </nav>
     </header>
-    {% block content %}
+ <!--   {% block content %}
         <div style="margin-top: 1%">
                 <div class="container-fluid">
                     <div class="row align-items-start">
@@ -53,15 +53,16 @@
                                     <h2>{{  post.title }}</h2>
                                     <p>Автор поста: <b>{{ post.author }}</b></p>
                                     <p>{{ post.body }}</p>
-                                <!--    <img src="https://static.tildacdn.com/tild3237-6137-4163-a230-616234323733/004329_23032019.jpg" alt="Цифровой двойник" width="100%" height="100%">-->
+                                   <img src="https://static.tildacdn.com/tild3237-6137-4163-a230-616234323733/004329_23032019.jpg" alt="Цифровой двойник" width="100%" height="100%"
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
+
                 <div class="carousel-item active">
                     <img src="https://yunostsibiri.ru/wp-content/uploads/2022/08/031489becf415f7bf7b9badde75458ab-1.jpg" class="d-block w-100" alt="...">
                 </div>
@@ -86,6 +87,115 @@
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
             crossorigin="anonymous">
     </script>
+        <nav aria-label="Навигация по страницам">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="/">Предыдущая</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Следующая</a>
+                </li>
+            </ul>
+        </nav>
+    <footer class="bg-grey text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Подпишись на наши обновления</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example21" class="form-control" />
+                  <label class="form-label" for="form5Example21">Email</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Подписаться
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Сайт разработан</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Клюкина Валерия</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Халявина Анастасия</a>
+                </li>
+
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Источники информации</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="https://palchevsky.ru/materials.php" class="text-white">palchevsky.ru</a>
+                </li>
+                <li>
+                  <a href="https://www.elibrary.ru/defaultx.asp?/=" class="text-white">elaibrary.ru</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Moscow 2023
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
 </div>
 </body>

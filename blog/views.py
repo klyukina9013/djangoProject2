@@ -14,3 +14,8 @@ class BlogDetailView(DetailView):
 
 class AboutPageView(TemplateView):
     template_name = 'post_detail.html'
+
+
+
+
+
